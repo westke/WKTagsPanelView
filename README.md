@@ -16,6 +16,7 @@ Your can handle related actions in the two delegate functions:
 >-  -(void)WKTagsPanelView:(WKTagsPanelView *)tagsPanelView didSelectItemAtIndexPath:(NSInteger)index;
 - -(void)WKTagsPanelView:(WKTagsPanelView *)tagsPanelView didDeSelectItemAtIndexPath:(NSInteger)index;
 
+：
 ![jpg](https://github.com/westke/WKTagsPanelView/blob/master/1.jpg)   
 ![jpg](https://github.com/westke/WKTagsPanelView/blob/master/2.jpg)   
 ![jpg](https://github.com/westke/WKTagsPanelView/blob/master/3.jpg)
