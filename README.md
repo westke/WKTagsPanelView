@@ -7,7 +7,7 @@ In some projects, we need to select  several tags for a  certain person.
                               
 =======
 In some projects, we need to select  several tags for a  certain person.
->>>>>>> FETCH_HEAD
+
 WKTagsPanelView provides a  solution to the problem。   
 How to use:
 >NSString *title = @"title";  
@@ -20,8 +20,7 @@ tagsPanelView.delegate = self;
 Your can handle related actions in the two delegate functions:
 >-  -(void)WKTagsPanelView:(WKTagsPanelView *)tagsPanelView didSelectItemAtIndexPath:(NSInteger)index;
 - -(void)WKTagsPanelView:(WKTagsPanelView *)tagsPanelView didDeSelectItemAtIndexPath:(NSInteger)index;
-<<<<<<< HEAD
 
 
-=======
->>>>>>> FETCH_HEAD
+
+
