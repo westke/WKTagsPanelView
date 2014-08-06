@@ -1,7 +1,6 @@
 WKTagsPanelView
 ===============
 
-=======
 In some projects, we need to select  several tags for a  certain person.
 
 WKTagsPanelView provides a  solution to the problem。   
