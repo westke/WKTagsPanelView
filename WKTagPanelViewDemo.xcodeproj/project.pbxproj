@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF98096019920A9400528B1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF98095F19920A9400528B1F /* Foundation.framework */; };
+		FF98096219920A9400528B1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF98096119920A9400528B1F /* CoreGraphics.framework */; };
+		FF98096419920A9400528B1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF98096319920A9400528B1F /* UIKit.framework */; };
+		FF98096A19920A9400528B1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF98096819920A9400528B1F /* InfoPlist.strings */; };
+		FF98096C19920A9400528B1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF98096B19920A9400528B1F /* main.m */; };
+		FF98097019920A9400528B1F /* WKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF98096F19920A9400528B1F /* WKAppDelegate.m */; };
+		FF98097319920A9400528B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF98097119920A9400528B1F /* Main.storyboard */; };
+		FF98097619920A9400528B1F /* WKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF98097519920A9400528B1F /* WKViewController.m */; };
+		FF98097819920A9400528B1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF98097719920A9400528B1F /* Images.xcassets */; };
+		FF98097F19920A9400528B1F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF98097E19920A9400528B1F /* XCTest.framework */; };
+		FF98098019920A9400528B1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF98095F19920A9400528B1F /* Foundation.framework */; };
+		FF98098119920A9400528B1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF98096319920A9400528B1F /* UIKit.framework */; };
+		FF98098919920A9400528B1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF98098719920A9400528B1F /* InfoPlist.strings */; };
+		FF98098B19920A9400528B1F /* WKTagPanelViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF98098A19920A9400528B1F /* WKTagPanelViewDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF98098219920A9400528B1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF98095419920A9400528B1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF98095B19920A9400528B1F;
+			remoteInfo = WKTagPanelViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF98095C19920A9400528B1F /* WKTagPanelViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKTagPanelViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF98095F19920A9400528B1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF98096119920A9400528B1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF98096319920A9400528B1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF98096719920A9400528B1F /* WKTagPanelViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WKTagPanelViewDemo-Info.plist"; sourceTree = "<group>"; };
+		FF98096919920A9400528B1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF98096B19920A9400528B1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF98096D19920A9400528B1F /* WKTagPanelViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKTagPanelViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FF98096E19920A9400528B1F /* WKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKAppDelegate.h; sourceTree = "<group>"; };
+		FF98096F19920A9400528B1F /* WKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKAppDelegate.m; sourceTree = "<group>"; };
+		FF98097219920A9400528B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF98097419920A9400528B1F /* WKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKViewController.h; sourceTree = "<group>"; };
+		FF98097519920A9400528B1F /* WKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKViewController.m; sourceTree = "<group>"; };
+		FF98097719920A9400528B1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF98097D19920A9400528B1F /* WKTagPanelViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKTagPanelViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF98097E19920A9400528B1F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FF98098619920A9400528B1F /* WKTagPanelViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WKTagPanelViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		FF98098819920A9400528B1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF98098A19920A9400528B1F /* WKTagPanelViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKTagPanelViewDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF98095919920A9400528B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF98096219920A9400528B1F /* CoreGraphics.framework in Frameworks */,
+				FF98096419920A9400528B1F /* UIKit.framework in Frameworks */,
+				FF98096019920A9400528B1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF98097A19920A9400528B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF98097F19920A9400528B1F /* XCTest.framework in Frameworks */,
+				FF98098119920A9400528B1F /* UIKit.framework in Frameworks */,
+				FF98098019920A9400528B1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF98095319920A9400528B1F = {
+			isa = PBXGroup;
+			children = (
+				FF98096519920A9400528B1F /* WKTagPanelViewDemo */,
+				FF98098419920A9400528B1F /* WKTagPanelViewDemoTests */,
+				FF98095E19920A9400528B1F /* Frameworks */,
+				FF98095D19920A9400528B1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF98095D19920A9400528B1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF98095C19920A9400528B1F /* WKTagPanelViewDemo.app */,
+				FF98097D19920A9400528B1F /* WKTagPanelViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF98095E19920A9400528B1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF98095F19920A9400528B1F /* Foundation.framework */,
+				FF98096119920A9400528B1F /* CoreGraphics.framework */,
+				FF98096319920A9400528B1F /* UIKit.framework */,
+				FF98097E19920A9400528B1F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF98096519920A9400528B1F /* WKTagPanelViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FF98096E19920A9400528B1F /* WKAppDelegate.h */,
+				FF98096F19920A9400528B1F /* WKAppDelegate.m */,
+				FF98097119920A9400528B1F /* Main.storyboard */,
+				FF98097419920A9400528B1F /* WKViewController.h */,
+				FF98097519920A9400528B1F /* WKViewController.m */,
+				FF98097719920A9400528B1F /* Images.xcassets */,
+				FF98096619920A9400528B1F /* Supporting Files */,
+			);
+			path = WKTagPanelViewDemo;
+			sourceTree = "<group>";
+		};
+		FF98096619920A9400528B1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF98096719920A9400528B1F /* WKTagPanelViewDemo-Info.plist */,
+				FF98096819920A9400528B1F /* InfoPlist.strings */,
+				FF98096B19920A9400528B1F /* main.m */,
+				FF98096D19920A9400528B1F /* WKTagPanelViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF98098419920A9400528B1F /* WKTagPanelViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF98098A19920A9400528B1F /* WKTagPanelViewDemoTests.m */,
+				FF98098519920A9400528B1F /* Supporting Files */,
+			);
+			path = WKTagPanelViewDemoTests;
+			sourceTree = "<group>";
+		};
+		FF98098519920A9400528B1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF98098619920A9400528B1F /* WKTagPanelViewDemoTests-Info.plist */,
+				FF98098719920A9400528B1F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF98095B19920A9400528B1F /* WKTagPanelViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF98098E19920A9400528B1F /* Build configuration list for PBXNativeTarget "WKTagPanelViewDemo" */;
+			buildPhases = (
+				FF98095819920A9400528B1F /* Sources */,
+				FF98095919920A9400528B1F /* Frameworks */,
+				FF98095A19920A9400528B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKTagPanelViewDemo;
+			productName = WKTagPanelViewDemo;
+			productReference = FF98095C19920A9400528B1F /* WKTagPanelViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF98097C19920A9400528B1F /* WKTagPanelViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF98099119920A9400528B1F /* Build configuration list for PBXNativeTarget "WKTagPanelViewDemoTests" */;
+			buildPhases = (
+				FF98097919920A9400528B1F /* Sources */,
+				FF98097A19920A9400528B1F /* Frameworks */,
+				FF98097B19920A9400528B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF98098319920A9400528B1F /* PBXTargetDependency */,
+			);
+			name = WKTagPanelViewDemoTests;
+			productName = WKTagPanelViewDemoTests;
+			productReference = FF98097D19920A9400528B1F /* WKTagPanelViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF98095419920A9400528B1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = westke;
+				TargetAttributes = {
+					FF98097C19920A9400528B1F = {
+						TestTargetID = FF98095B19920A9400528B1F;
+					};
+				};
+			};
+			buildConfigurationList = FF98095719920A9400528B1F /* Build configuration list for PBXProject "WKTagPanelViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF98095319920A9400528B1F;
+			productRefGroup = FF98095D19920A9400528B1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF98095B19920A9400528B1F /* WKTagPanelViewDemo */,
+				FF98097C19920A9400528B1F /* WKTagPanelViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF98095A19920A9400528B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF98097819920A9400528B1F /* Images.xcassets in Resources */,
+				FF98096A19920A9400528B1F /* InfoPlist.strings in Resources */,
+				FF98097319920A9400528B1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF98097B19920A9400528B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF98098919920A9400528B1F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF98095819920A9400528B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF98097619920A9400528B1F /* WKViewController.m in Sources */,
+				FF98097019920A9400528B1F /* WKAppDelegate.m in Sources */,
+				FF98096C19920A9400528B1F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF98097919920A9400528B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF98098B19920A9400528B1F /* WKTagPanelViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF98098319920A9400528B1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF98095B19920A9400528B1F /* WKTagPanelViewDemo */;
+			targetProxy = FF98098219920A9400528B1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF98096819920A9400528B1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF98096919920A9400528B1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF98097119920A9400528B1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF98097219920A9400528B1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF98098719920A9400528B1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF98098819920A9400528B1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF98098C19920A9400528B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF98098D19920A9400528B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF98098F19920A9400528B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WKTagPanelViewDemo/WKTagPanelViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "WKTagPanelViewDemo/WKTagPanelViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF98099019920A9400528B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WKTagPanelViewDemo/WKTagPanelViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "WKTagPanelViewDemo/WKTagPanelViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FF98099219920A9400528B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WKTagPanelViewDemo.app/WKTagPanelViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WKTagPanelViewDemo/WKTagPanelViewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WKTagPanelViewDemoTests/WKTagPanelViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FF98099319920A9400528B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WKTagPanelViewDemo.app/WKTagPanelViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WKTagPanelViewDemo/WKTagPanelViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "WKTagPanelViewDemoTests/WKTagPanelViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF98095719920A9400528B1F /* Build configuration list for PBXProject "WKTagPanelViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF98098C19920A9400528B1F /* Debug */,
+				FF98098D19920A9400528B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF98098E19920A9400528B1F /* Build configuration list for PBXNativeTarget "WKTagPanelViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF98098F19920A9400528B1F /* Debug */,
+				FF98099019920A9400528B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF98099119920A9400528B1F /* Build configuration list for PBXNativeTarget "WKTagPanelViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF98099219920A9400528B1F /* Debug */,
+				FF98099319920A9400528B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF98095419920A9400528B1F /* Project object */;
+}
