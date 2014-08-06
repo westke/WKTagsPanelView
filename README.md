@@ -1,6 +1,6 @@
 WKTagsPanelView
 ===============
-<<<<<<< HEAD
+
 
 In some projects, we need to select  several tags for a  certain person.
 
