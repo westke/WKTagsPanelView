@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FF98095B19920A9400528B1F"
-               BuildableName = "WKTagPanelViewDemo.app"
-               BlueprintName = "WKTagPanelViewDemo"
-               ReferencedContainer = "container:WKTagPanelViewDemo.xcodeproj">
+               BuildableName = "WKTagsPanelViewDemo.app"
+               BlueprintName = "WKTagsPanelViewDemo"
+               ReferencedContainer = "container:WKTagsPanelViewDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FF98097C19920A9400528B1F"
-               BuildableName = "WKTagPanelViewDemoTests.xctest"
-               BlueprintName = "WKTagPanelViewDemoTests"
-               ReferencedContainer = "container:WKTagPanelViewDemo.xcodeproj">
+               BuildableName = "WKTagsPanelViewDemoTests.xctest"
+               BlueprintName = "WKTagsPanelViewDemoTests"
+               ReferencedContainer = "container:WKTagsPanelViewDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FF98095B19920A9400528B1F"
-            BuildableName = "WKTagPanelViewDemo.app"
-            BlueprintName = "WKTagPanelViewDemo"
-            ReferencedContainer = "container:WKTagPanelViewDemo.xcodeproj">
+            BuildableName = "WKTagsPanelViewDemo.app"
+            BlueprintName = "WKTagsPanelViewDemo"
+            ReferencedContainer = "container:WKTagsPanelViewDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FF98095B19920A9400528B1F"
-            BuildableName = "WKTagPanelViewDemo.app"
-            BlueprintName = "WKTagPanelViewDemo"
-            ReferencedContainer = "container:WKTagPanelViewDemo.xcodeproj">
+            BuildableName = "WKTagsPanelViewDemo.app"
+            BlueprintName = "WKTagsPanelViewDemo"
+            ReferencedContainer = "container:WKTagsPanelViewDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FF98095B19920A9400528B1F"
-            BuildableName = "WKTagPanelViewDemo.app"
-            BlueprintName = "WKTagPanelViewDemo"
-            ReferencedContainer = "container:WKTagPanelViewDemo.xcodeproj">
+            BuildableName = "WKTagsPanelViewDemo.app"
+            BlueprintName = "WKTagsPanelViewDemo"
+            ReferencedContainer = "container:WKTagsPanelViewDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
